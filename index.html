@@ -4,107 +4,42 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Guía XP</title>
+<link rel="stylesheet" href="styles.css">
+</head>
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-    }
+<body>
 
-    body {
-        background: #0b1220;
-        color: white;
-    }
+<header>
+<h1>🎮 Guía XP</h1>
+<p>Elige tu juego y mejora tu nivel gamer</p>
+</header>
 
-    /* HEADER */
-    header {
-        background: linear-gradient(90deg, #7c3aed, #06b6d4);
-        padding: 25px;
-        text-align: center;
-    }
+<div class="container">
 
-    header h1 {
-        font-size: 34px;
-    }
+<a class="card" href="minecraft.html">
+<img src="https://images.unsplash.com/photo-1605901309584-818e25960a8f">
+<h3>Minecraft</h3>
+</a>
 
-    header p {
-        opacity: 0.9;
-        margin-top: 5px;
-    }
+<a class="card" href="roblox.html">
+<img src="https://images.unsplash.com/photo-1627856013091-fed6f10d0d3b">
+<h3>Roblox</h3>
+</a>
 
-    /* NAV */
-    nav {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        background: #111827;
-        padding: 12px;
-        flex-wrap: wrap;
-    }
+<a class="card" href="genshin.html">
+<img src="https://images.unsplash.com/photo-1608889175123-8ee362201f81">
+<h3>Genshin Impact</h3>
+</a>
 
-    nav a {
-        color: white;
-        text-decoration: none;
-        padding: 8px 14px;
-        border-radius: 8px;
-        transition: 0.3s;
-    }
+<a class="card" href="freefire.html">
+<img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f">
+<h3>Free Fire</h3>
+</a>
 
-    nav a:hover {
-        background: #7c3aed;
-    }
+</div>
 
-    /* BUSCADOR */
-    .search {
-        text-align: center;
-        margin: 20px;
-    }
-
-    .search input {
-        padding: 10px;
-        width: 80%;
-        max-width: 400px;
-        border-radius: 10px;
-        border: none;
-        outline: none;
-    }
-
-    /* DESTACADO */
-    .featured {
-        margin: 20px;
-        padding: 15px;
-        background: #1f2937;
-        border-radius: 12px;
-        text-align: center;
-    }
-
-    .featured h2 {
-        margin-bottom: 10px;
-        color: #06b6d4;
-    }
-
-    /* GRID */
-    .container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
-        padding: 20px;
-    }
-
-    .card {
-        background: #111827;
-        border-radius: 12px;
-        overflow: hidden;
-        transition: transform 0.3s, box-shadow 0.3s;
-        cursor: pointer;
-    }
-
-    .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-    }
+</body>
+</html>    }
 
     .card img {
         width: 100%;
